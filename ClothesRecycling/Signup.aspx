@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Signup.aspx.cs" Inherits="ClothesRecycling.Signup" %>
+﻿<%@ Page Language="C#" AutoEventWireup="True" CodeBehind="Signup.aspx.cs" Inherits="ClothesRecycling.Signup" %>
 
 <!DOCTYPE html>
  
@@ -52,11 +52,13 @@
            	 </form> 
         	</div>
         	<div class="content col-sm-6">
-            	<h2>Your waste is someone elses need!</h2>
-            	<p>Some more text</p>
+      	      <h2>Your waste is someone's need!</h2>
+            	<p>
+                	Recycle the lifecycle !
+            	</p>
             	<div style="position: relative; height: 0; padding-bottom: 75.0%">
-                	<iframe src="https://www.youtube.com/embed/or9JgT6LhKI?ecver=2" width="480" height="360" frameborder="0" style="position: absolute; width: 100%; height: 100%; left: 0" allowfullscreen></iframe>
-            	</div> 
+                	<iframe src="https://www.youtube.com/embed/or9JgT6LhKI?ecver=2" width="480" height="360" style="position: absolute; width: 100%; height: 100%; left: 0"></iframe>
+            	</div>
         	</div>
     	</div>
 	</div>
