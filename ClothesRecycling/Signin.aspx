@@ -19,23 +19,22 @@
     	</div>
     	<div class="row">
         	<div class="form col-sm-6">
- 
-            	<form id="form1" runat="server">
+            	<form id="frmSignIn" runat="server">
                 	<div>
                     	<h2>Sign In</h2>
                     	<div class="form-group">
                         	<label for="txtEmail">Email</label>
  
-                        	<input type="email" id="txtEmail" placeholder="Enter Email Address" class="form-control" required="required" />
+                        	<input type="email" id="txtEmail" placeholder="Enter Email Address" class="form-control" required="required" runat="server" />
                     	</div>
  
                     	<div class="form-group">
                         	<label for="txtPassword">Password</label>
  
-                        	<input type="password" id="txtPassword" placeholder="Select secure password" class="form-control" required="required" />
+                        	<input type="password" id="txtPassword" placeholder="Select secure password" class="form-control" required="required" runat="server" />
                     	</div>
                     	<div class="form-group">
-                        	<input type="button" id="login" value="Sign In" class="btn btn-success" />
+                        	<asp:button ID="btnSignIn" Text="Sign In" CssClass="btn btn-success" runat="server" OnClick="btnSignIn_Click" />
                     	</div>
                     	<p>New User? <a href="Signup.aspx">Sign Up!</a></p>
                 	</div>
