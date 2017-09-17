@@ -10,7 +10,7 @@
 namespace ClothesRecycling {
     
     
-    public partial class Signup {
+    public partial class Signin {
         
         /// <summary>
         /// frmSignIn control.
